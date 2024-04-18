@@ -74,7 +74,7 @@ namespace locadora2._0
                             existe = false;
                             Console.WriteLine("Nome e senha incorretas.");
                         }
-                        break;                           
+                        break;
                 }
             } while (cadastro != "sim" || existe == false);
             Console.WriteLine("\r\nBem vindo(a) a locadora! ");
@@ -91,7 +91,7 @@ namespace locadora2._0
             Console.WriteLine("9)Homem Aranha 3");
             Console.WriteLine("10)O bicho vai pegar ");
             Console.WriteLine("11)O bicho vai pegar 2");
-            Console.WriteLine("O senhor(a) deseja um filme?");
+            Console.WriteLine("O(A) senhor(a) deseja um filme?");
             do
             {
                 desejo = Console.ReadLine();
@@ -147,7 +147,7 @@ namespace locadora2._0
                         Console.WriteLine("Ok senhor(a), tenha um ótimo dia!");
                         break;
                 }
-            } while (desejo != "sim");
+            } while (desejo == "sim");
 
         }
         static private string NovaSenha()
